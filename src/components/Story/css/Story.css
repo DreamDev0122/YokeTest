@@ -1,0 +1,40 @@
+.PageStoryHeader {
+    padding-top: 270px;
+    row-gap: 40px;
+}
+
+.StoryHeader {
+    font-family: 'Lalezar';
+    color: rgb(37, 50, 22);
+    font-size: 65px;
+    font-style: italic;
+    font-weight: initial;
+    max-width: 900px;
+    line-height: 60px;
+}
+
+.StoryDes {
+    max-width: 600px;
+    font-size: 18px;
+    color: rgb(21, 21, 21);
+}
+
+.GreenImg {
+    width: 200px;
+    z-index: -99;
+    left: 0px;
+    top: 350px;
+}
+
+@media screen and (max-width: 860px) {
+    .GreenImg {
+        top: 100%;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .StoryHeader {
+        font-size: 50px;
+    }
+}

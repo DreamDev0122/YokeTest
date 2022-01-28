@@ -1,0 +1,98 @@
+.SpinFlex {
+    flex: 1;
+}
+
+
+.PageHeaderItems {
+    column-gap: 80px;
+}
+
+.PageHeaderItems span {
+    font-size: 20px;
+    font-family: 'Lalezar';
+    font-style: italic;
+}
+
+.PageHeaderInRow1 {
+    width: 1200px;
+}
+
+
+.WalletBtn {
+    background-color: transparent;
+    border: 3px solid #77b434;
+    font-family: 'Lalezar';
+    color: #77b434;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.ToggleWallet {
+    background-color: transparent;
+    border: 3px solid #77b434;
+    font-family: 'Lalezar';
+    color: #77b434;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.PageHeader1 {
+    display: block;
+}
+
+.PageHeader2 {
+    display: none;
+}
+
+.PageHeader2 .PageHeader {
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.ToggleBtn {
+    font-size: 30px;
+}
+
+.TogglesBtn {
+    border: none;
+    background-color: transparent;
+}
+
+.ToggleMenu {
+    /* background-color: black !important; */
+    color: black;
+    border: 1px solid red;
+}
+
+.ToggleCloseBtn {
+    background-color: transparent;
+    border: none;
+}
+
+.ToggleDrop {
+    margin-right: 30px;
+}
+
+.ToggleDrop .ToggleItem span {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lalezar';
+    font-style: italic;
+}
+
+@media screen and (max-width: 680px) {
+    .PageHeader1 {
+        display: none;
+    }
+
+    .PageHeader2 {
+        display: block;
+    }
+}

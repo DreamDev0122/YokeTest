@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Lalezar';
+    src: url(assets/font/Lalezar/Lalezar-Regular.ttf);
+}
+
+.BackPage {
+    background-image: url(assets/Hero.svg);
+    background-size: cover;
+}
+
+.w-spec {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
